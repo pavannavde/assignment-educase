@@ -14,8 +14,8 @@ const Profile = () => {
       <div>
         <img src='https://images.pexels.com/photos/3584926/pexels-photo-3584926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='profile'/>
         <div>
-            <p>{user ? user.name :"Name"}</p>
-            <p>{user ? user.email:"Example@email"}</p>
+            <p style={{color:'blueviolet'}}>Name : {user ? user.name :"Name"}</p>
+            <p style={{color:'blueviolet'}}>Email : {user ? user.email:"Example@email"}</p>
         </div>
         
       </div>
